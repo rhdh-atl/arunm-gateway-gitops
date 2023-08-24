@@ -1,0 +1,15 @@
+app:
+  name: arunm-poi-gateway-app
+  namespace: arunm
+  cluster: .apps.j0i9yf30.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-atl/arunm-gateway
+  org: rhdh-atl
+  name: arunm-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: arunm/poi-gateway-app
+  tag: latest
